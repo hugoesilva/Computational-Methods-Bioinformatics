@@ -1,0 +1,24 @@
+For file test_q1.txt the chain is: 
+lenght of chain: 10
+8
+10
+9
+7
+6
+5
+3
+1
+4
+2
+For file data_q1.txt the chain is: 
+lenght of chain: 10
+2
+1
+10
+5
+7
+6
+4
+3
+9
+8
