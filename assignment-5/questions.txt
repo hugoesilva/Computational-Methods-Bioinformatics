@@ -1,0 +1,5 @@
+- 2d histogram of the data.
+
+- Are we supposed to use an algorithm to find the macrostates?
+
+- eigenfunction magnitude?
