@@ -5,7 +5,7 @@
 
 ### - Simulated annealing
 
-Simulated annealing is a metaheuristic optimization algorithm that is used to find the global minimum of a function. It is inspired by the annealing process in metallurgy, where a metal is heated and then slowly cooled down to increase its purity. In simulated annealing, the function to be minimized is analogous to the energy of the metal, and the temperature is analogous to the probability of accepting a worse solution. The algorithm starts with a high temperature, which means that it is more likely to accept a worse solution. As the temperature decreases, the algorithm becomes less likely to accept a worse solution. This is done to avoid getting stuck in a local minimum. The temperature is decreased according to a cooling schedule, which is a function that determines how fast the temperature decreases. The algorithm stops when the temperature reaches zero.
+As for a brief description of the algorithm in question, simulated annealing is a metaheuristic optimization algorithm that finds the global minimum of a function. This algorithm is inspired by the annealing process in metallurgy, where a metal is heated and then slowly cooled down to increase its purity. In simulated annealing, the minimization problem is compared to the minimization of the energy of the metal, and the temperature to the probability of accepting a worse solution. Firstly, the algorithm starts with a high temperature, accepting more easily and worse solution. With the decrease of the tempeature, the chances of accepting a worse solution decrease. This way, we avoid getting stuck in a local minimum. The temperature is decreased according to a cooling schedule, which is a function that determines how fast the temperature decreases. Finally, the algorithm stops when the temperature reaches zero.
 
 ### - First Example (Course Lecture 14) - HOLE Analysis of Ion Channel Pore Dimensions
 
@@ -90,11 +90,11 @@ The authors observed that best structure obtained by their protein folding simul
 ### **`Question 4 a)` - Discuss how the concept of mesostates (as described by Gong et al. (2005), or Chellapa and Rose (2012)) could be used in performing structural alignment.**
 
 Firstly, while Taylor and Orengo's method performs better when handling sequence variations and structural displacements,
-the inregration of both sequencial and structural alignment will possibly make it too intensive in terms of the computation.
+the inregration of both sequencial and structural alignment will, most likely, make it too intensive in terms of the computation.
 
-The mesostates approach makes the alignment process simpler by focusing on stable structural repeated elements like alpha helices and beta strands. This makes this approach effective for aligning proteins that are distantly related or those with significant structural flexibility.
+Going for the mesostates approach makes the alignment process easier by focusing on stable structural repeated elements like alpha helices and beta strands. This turns out to be effective for aligning proteins that are distantly related or proteins that have high structural flexibility.
 
-Mesostates overlook some details in protein structures that Taylor and Orengo's method can capture, particularly some which are important for atomic interactions. The choice between these methods could depend on the specific requirements of the alignment task, whether we need detailed analysis or computational efficiency and the focus on key structural elements.
+The mesostates approach misses out on a few details in protein structures that Taylor and Orengo's method can capture, some of which are important for atomic interactions. Choosing between these methods could depend on the specific requirements, whether we need detailed analysis or computational efficiency and the focus on key structural elements.
 
 
 ### **`Question 4 b)` - When a chatbot (like ChatGPT) was asked to answer part (a), its response included the following: (...) Discuss whether this response is accurate or useful.**
